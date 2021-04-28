@@ -6,27 +6,9 @@
     <div class="container">
         <h1 class="my-3">Voici les annonces de nos hotes!!</h1>
         <div class="row">
-            {% for ad in ads %}
-                  <div class="col-md-4">
-         <div class="card bg-light mb-3">
-           <div class="card-header text-center">
-              {{ ad.rooms }} chambers ,<strong>{{ ad.price }}&euro;/nuit</strong> <br>
-                           <small>Pas encore noté</small>
-                        </div>
-                             <img src="{{ad.coverImage}}" alt="img de l'appartement" style="height: 200px;width: 100%;display: block">
-
-                        <div class="card-body">
-
-                            <p class="card-text">
-                                {{ ad.introduction }}
-                            </p>
-                            <a href="#" class="btn btn-info">En savoir plus</a>
-           </div>
-         </div>
-         </div>
+            {% for ad  in ads %}
+                {% include 'ad/_ad.html.twig' %}
             {% endfor %}
         </div>
-
-
     </div>
 {% endblock %}

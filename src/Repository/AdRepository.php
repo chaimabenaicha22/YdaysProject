@@ -18,6 +18,7 @@ class AdRepository extends ServiceEntityRepository
     {
         parent::__construct($registry, Ad::class);
     }
+ 
 
     // /**
     //  * @return Ad[] Returns an array of Ad objects

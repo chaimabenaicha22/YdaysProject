@@ -10877,3 +10877,56 @@ table-warning {
 .list-group {
     font-size: .930125rem
 }
+
+div.container,
+div.container-fluid {
+    margin-top: 40px;
+}
+
+div.personalized1 {
+    padding: 2em;
+    background-size: cover;
+    background-position: center center;
+}
+
+div.personalized1 h1,
+div.personalized1 p {
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+div.carousel-caption {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+    max-width: 128px;
+    max-height: 128px;
+    border-radius: 50%;
+}
+
+.avatar,
+avatar-medium {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.avatar,
+avatar-mini {
+    max-width: 4px;
+    max-height: 4px;
+}
+
+.avatar,
+avatar-micro {
+    max-width: 27px;
+    max-height: 27px;
+}
+
+.datepicker table tr td.active.disabled:hover {
+    color: firebrick;
+}
+
+span.rating i {
+    color: goldenrod;
+}

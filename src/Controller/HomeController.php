@@ -17,5 +17,6 @@ class HomeController extends AbstractController{
                ['title'=> "bonjour a tous"]
            );
     }
+    
 }
 ?>
